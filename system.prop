@@ -15,5 +15,8 @@ ro.telephony.ril.hisi=true
 # Disable statsd
 ro.statsd.enable=false
 
+# Disable HW Overlays
+debug.sf.disable_hwcomposer=true
+
 # RIL
 ro.skip.fingerprint.check=true
