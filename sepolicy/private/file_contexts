@@ -72,5 +72,3 @@
 # Wi-Fi
 /system/bin/hw/hostapd                                        u:object_r:hal_wifi_hostapd_device_exec:s0
 /system/bin/hw/hostapd_hisi                                   u:object_r:hal_wifi_hostapd_device_exec:s0
-
-/system/bin/sysinit       u:object_r:sysinit_exec:s0

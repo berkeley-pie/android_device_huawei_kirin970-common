@@ -17,3 +17,9 @@ allow init vendor_configs_file:file mounton;
 allow init rootfs:file mounton;
 
 allow init bfm_device:chr_file { getattr open ioctl write };
+
+allow init sysfs_power:lnk_file read;
+
+allow init splash2_data_file:dir mounton;
+allow init tmpfs:lnk_file create;
+allow vendor_init device:chr_file getattr;

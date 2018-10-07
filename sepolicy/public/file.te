@@ -27,4 +27,10 @@ type bfm_device, dev_type;
 type modem_secure_file, data_file_type, file_type;
 type modem_fw_file, data_file_type, file_type;
 type modem_nv_file, data_file_type, file_type;
-type modem_log_file, data_file_type, file_type;
+type modem_log_file, core_data_file_type, data_file_type, file_type;
+type modem_log_block_device, dev_type;
+type modem_log_data_file, core_data_file_type, data_file_type, file_type;
+type odm_xml_file, core_data_file_type, data_file_type, file_type;
+type mnt_modem_file, core_data_file_type, data_file_type, file_type;
+type sys_block_sdd, dev_type;
+
