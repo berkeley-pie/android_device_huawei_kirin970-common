@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_AOSP_BASED),)
+ifneq ($(TARGET_PROVIDES_QTI_TELEPHONY_JAR),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := qti-telephony-common
 LOCAL_JAVA_LIBRARIES := telephony-common telephony-ext
