@@ -13,9 +13,6 @@ allow init vendor_file:file mounton;
 # Allow init to mount vendor configs
 allow init vendor_configs_file:file mounton;
 
-# Allow init to mount adbd binary
-allow init rootfs:file mounton;
-
 allow init bfm_device:chr_file { getattr open ioctl write };
 
 allow init sysfs_power:lnk_file read;
