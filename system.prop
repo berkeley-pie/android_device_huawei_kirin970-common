@@ -3,8 +3,8 @@ audio.deep_buffer.media=true
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=7
 
-# MTP
-persist.sys.usb.config=mtp,adb
+# Enable ADB authentication
+ro.adb.secure=1
 
 # Perf
 ro.vendor.qti.sys.fw.bg_apps_limit=60
@@ -20,6 +20,3 @@ debug.sf.disable_hwcomposer=true
 
 # Force disable blank
 debug.force_no_blanking=true
-
-# RIL
-ro.skip.fingerprint.check=true
